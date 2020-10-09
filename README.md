@@ -15,5 +15,5 @@ Follow the instructions from [this link](https://opencv-python-tutroals.readthed
 pip install zipfile36
 ```
 ## What does this project do ?
-You must give input a zipfile name in which are png images. The images need to have text and faces. It works best with newspaper pages in which are both text and faces. Then you must give a keyword for input. Now, the program converts the text from the images for each image into string and searches for the keyword. If found it searches for faces and if there are faces it puts them in a sheet, but if it doesn't, it will paste a image with text informing that there were no faces found.
+You must give input a zipfile name in which are located **png** images (the zipfile must be in the same folder as the project if you give just its name, otherwise give relative or full path). The images need to have text and faces. It works best with newspaper pages in which are both text and faces. Then you must give a keyword for input. Now, the program converts the text from the images for each image into string and searches for the keyword. If found it searches for faces and if there are faces it puts them in a sheet, but if it doesn't, it will paste a image with text informing that there were no faces found.
 In the end it's generated an image with all the results.
